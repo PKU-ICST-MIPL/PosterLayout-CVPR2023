@@ -1,6 +1,6 @@
 # PosterLayout: A New Benchmark and Approach for Content-aware Visual-Textual Presentation Layout
 
-This repository contains the guidelines of benchmark **PKU PosterLayout** and Pytorch implementation of **DS-GAN** for "PosterLayout: A New Benchmark and Approach for Content-aware Visual-Textual Presentation Layout", CVPR 2023.
+This repository contains the guidelines of benchmark **PKU PosterLayout** for "PosterLayout: A New Benchmark and Approach for Content-aware Visual-Textual Presentation Layout", CVPR 2023.
 
 For **dataset details and downloads**, please visit our [project page](http://59.108.48.34/tiki/PosterLayout/).
 
