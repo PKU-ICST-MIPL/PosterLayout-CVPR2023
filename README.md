@@ -26,7 +26,7 @@ Dataset/
 
 ### Usage
 - Testing
-1. Revise line 13 and 70 to import and load the model
+1. Revise *line 13 and 70* to import and load the model
 2. Run ```sh test_n_eval.sh```
 
 ## Citation
