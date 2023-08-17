@@ -2,7 +2,7 @@
 """
 Created on Sat Oct 15 14:08:12 2022
 
-@author: kinsleyhsu
+@author: shyoh
 """
 
 import torch
@@ -10,7 +10,7 @@ import torch.nn as nn
 import torch.optim as optim
 from torch.utils.data import DataLoader
 from dataloader import canvas
-from model import generator # import your model module
+from model import generator
 from PIL import Image, ImageDraw
 import matplotlib.pyplot as plt
 from collections import OrderedDict
@@ -57,8 +57,8 @@ def test(G, testing_dl, epoch_n):
     clses = torch.concat(clses, dim=0).numpy()
     boxes = torch.concat(boxes, dim=0).numpy()
     
-    torch.save(clses, f"output/clses.pt")
-    torch.save(boxes, f"output/boxes.pt")
+    torch.save(clses, f"output/clses-Epoch300.pt")
+    torch.save(boxes, f"output/boxes-Epoch300.pt")
     
 def main():
     global fix_noise, no
@@ -67,7 +67,7 @@ def main():
     test_sal_dir_2 = "Dataset/test/saliencymaps_basnet"
     test_batch_size = 4
     
-    ckpt_path = "" # your model weight
+    ckpt_path = "output/DS-GAN-Epoch300.pth"
     
     testing_set = canvas(test_bg_path, test_sal_dir_1, test_sal_dir_2, train=False)
     testing_dl = DataLoader(testing_set, num_workers=16, batch_size=test_batch_size, shuffle=False)
