@@ -1,6 +1,6 @@
 # PosterLayout: A New Benchmark and Approach for Content-aware Visual-Textual Presentation Layout
 
-This repository contains the guidelines of benchmark **PKU PosterLayout** and Pytorch implementation of **DS-GAN** for "[PosterLayout: A New Benchmark and Approach for Content-aware Visual-Textual Presentation Layout](https://openaccess.thecvf.com/content/CVPR2023/html/Hsu_PosterLayout_A_New_Benchmark_and_Approach_for_Content-Aware_Visual-Textual_Presentation_CVPR_2023_paper.html)", CVPR 2023.
+This repository contains the guidelines of benchmark **PKU PosterLayout** and Pytorch implementation of **DS-GAN** for "PosterLayout: A New Benchmark and Approach for Content-aware Visual-Textual Presentation Layout", CVPR 2023.
 
 For **dataset details and downloads**, please visit our [project page](http://59.108.48.34/tiki/PosterLayout/).
 
@@ -15,10 +15,7 @@ If your operating system is ```linux-64```, directly run
 conda create --name yourenvname --file spec-file.txt
 ```
 
-Otherwise, try
-```
-pip install -r requirements.txt
-```
+Otherwise, 
 - Environment
 ```
 Python 3.9
@@ -76,12 +73,11 @@ sh test_n_eval.sh
 ## Citation
 If our work is helpful for your research, please cite our paper:
 ```
-@inproceedings{Hsu-cvpr2023-posterlayout,
+@inproceedings{Hsu-2023-posterlayout,
     title={PosterLayout: A New Benchmark and  Approach for Content-Aware Visual-Textual Presentation Layout},
     author={HsiaoYuan Hsu, Xiangteng He, Yuxin Peng, Hao Kong and Qing Zhang},
     booktitle={Proceedings of IEEE Conference on Computer Vision and Pattern Recognition (CVPR)},
-    year={2023},
-    pages={6018-6026}
+    year={2023}
 }
 ```
 

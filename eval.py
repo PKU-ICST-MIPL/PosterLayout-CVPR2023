@@ -2,7 +2,7 @@
 """
 Created on Sun Oct 23 20:18:00 2022
 
-@author: kinsleyhsu
+@author: shyoh
 """
 
 import torch
@@ -12,6 +12,7 @@ import numpy as np
 import cv2
 from PIL import Image, ImageDraw
 from math import log
+from collections import OrderedDict
 
 gpu = torch.cuda.is_available()
 device_ids = [0, 1, 2, 3]
@@ -384,8 +385,8 @@ def main():
     save_dir = f"output/result_plot/"
     names = torch.load("test_order.pt")
     print("len:", len(names))
-    clses = torch.load("output/clses.pt")
-    boxes = torch.load("output/boxes.pt")
+    clses = torch.load("output/clses-Epoch300.pt")
+    boxes = torch.load("output/boxes-Epoch300.pt")
     boxes[:, :, ::2] *= 513
     boxes[:, :, 1::2] *= 750
     
