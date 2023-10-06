@@ -86,4 +86,4 @@ If our work is helpful for your research, please cite our paper:
 ```
 
 ## Contact us
-For any questions or further information, please email Ms. Hsu (kslh99@stu.pku.edu.cn).
+For any questions or further information, please email Dr. He (hexiangteng@pku.edu.cn).
