@@ -35,7 +35,7 @@ Pillow==9.2.0
 ```
 
 ### Models
-1. Download pre-trained weights from [PKU Netdisk](https://disk.pku.edu.cn:443/link/B11CA3D24A7A59332A3DDDF2A0A608B2) or [Google Drive](https://drive.google.com/drive/folders/1UYJ34BhqgYztfh5n5A4GU4nqgboPtoWS?usp=sharing)
+1. Download pre-trained weights from [PKU Netdisk](https://disk.pku.edu.cn/link/AACEAA435D05BC4279BB30A48A01E0695D)(pw: P04X) or [Google Drive](https://drive.google.com/drive/folders/1UYJ34BhqgYztfh5n5A4GU4nqgboPtoWS?usp=sharing)
 2. Put corresponding .pth files under ```model_weight/``` or ```output/```, as follow:
 ```
 model_weight/
