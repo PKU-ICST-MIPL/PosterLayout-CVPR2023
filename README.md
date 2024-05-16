@@ -46,7 +46,7 @@ output/
 ```
 
 ### Dataset
-1. Download PKU PosterLayout from the [project page](http://59.108.48.34/tiki/PosterLayout/)
+1. Download PKU PosterLayout from the [project page](http://39.108.48.32/mipl/PosterLayout/)
 2. Unzip compressed files to corresponding directories
 3. Put directories under ```Dataset/```, as follow:
 ```
