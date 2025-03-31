@@ -47,8 +47,9 @@ output/
 
 ### Dataset
 1. Download PKU PosterLayout from the [project page](http://39.108.48.32/mipl/PosterLayout/)
-2. Unzip compressed files to corresponding directories
-3. Put directories under ```Dataset/```, as follow:
+   (To download the PKU PosterLayout dataset, please sign the Release Agreement and send it to yinsibo@stu.pku.edu.cn)
+3. Unzip compressed files to corresponding directories
+4. Put directories under ```Dataset/```, as follow:
 ```
 Dataset/
 ├─ train/
@@ -86,4 +87,4 @@ If our work is helpful for your research, please cite our paper:
 ```
 
 ## Contact us
-For any questions or further information, please email Ms. Hsu (kslh99@stu.pku.edu.cn).
+For any questions or further information, please email Mr. Yin (yinsibo@stu.pku.edu.cn).
